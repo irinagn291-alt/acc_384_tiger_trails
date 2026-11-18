@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+
+		8A9886F2A9F8844EDED61D69 = {
+			isa = PBXFileReference;
+			path = TigerTrailsApp.swift;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		BF0253C0B06944FF60991C4A = {
+			isa = PBXBuildFile;
+			fileRef = 8A9886F2A9F8844EDED61D69;
+		};
+
+
+
+
+
+
+		133C494E78AF98C4F683CB05 = {
+			isa = PBXFileReference;
+			path = ColorArtwork.swift;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		CB54DCA2335765330831B53C = {
+			isa = PBXBuildFile;
+			fileRef = 133C494E78AF98C4F683CB05;
+		};
+		EB5F4E7C091DD1DD05D466F9 = {
+			isa = PBXFileReference;
+			path = Assets.xcassets;
+			lastKnownFileType = folder.assetcatalog;
+			sourceTree = "<group>";
+		};
+		DD9BDADFD743FDF71EC559AD = {
+			isa = PBXBuildFile;
+			fileRef = EB5F4E7C091DD1DD05D466F9;
+		};
+		20371E34D3F97BF34245349A = {
+			isa = PBXFileReference;
+			path = TigerTrailsTests.swift;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		30A7B770C682AE61F9C32732 = {
+			isa = PBXBuildFile;
+			fileRef = 20371E34D3F97BF34245349A;
+		};
+		0152B6D4C9ECC8C493DEF35C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+				SWIFT_VERSION = 5.0;
+				SDKROOT = iphoneos;
+				ENABLE_TESTABILITY = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D72451325FC4375744995FA0 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = -O;
+				SWIFT_VERSION = 5.0;
+				SDKROOT = iphoneos;
+				ENABLE_TESTABILITY = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2163C74ECFF7E877C01F0F5B = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (
+				0152B6D4C9ECC8C493DEF35C,
+				D72451325FC4375744995FA0,
+			);
+		};
+		2EFB3AEB43A319EEC913B003 = {
+			isa = PBXFileReference;
+			path = TigerTrails.app;
+			includeInIndex = 0;
+			explicitFileType = wrapper.application;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		53CD1C8C63D449E1583BBFF9 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save your finished coloring page to Photos.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Photograph an animal or another subject to make a coloring page.";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Trails";
+				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tiger.trails;
+				SUPPORTS_MACCATALYST = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.graphics-design;
+			};
+			name = Debug;
+		};
+		98F1BF0781566DB4B8F15CEB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save your finished coloring page to Photos.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Photograph an animal or another subject to make a coloring page.";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Trails";
+				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tiger.trails;
+				SUPPORTS_MACCATALYST = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.graphics-design;
+			};
+			name = Release;
+		};
+		F78BFEAACCEB34DBB31C3675 = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (
+				53CD1C8C63D449E1583BBFF9,
+				98F1BF0781566DB4B8F15CEB,
+			);
+		};
+		C61419943749C36A58B6E1E2 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0253C0B06944FF60991C4A,
+
+				CB54DCA2335765330831B53C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC90AE77D0CC7AA5409088A = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A27229DA500E12B197E32F = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9BDADFD743FDF71EC559AD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9521131F0E2B296284902DC2 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78BFEAACCEB34DBB31C3675;
+			productReference = 2EFB3AEB43A319EEC913B003;
+			productType = com.apple.product-type.application;
+			productName = TigerTrails;
+			buildPhases = (
+				C61419943749C36A58B6E1E2,
+				ACC90AE77D0CC7AA5409088A,
+				B8A27229DA500E12B197E32F,
+			);
+			dependencies = ();
+			name = TigerTrails;
+			buildRules = ();
+		};
+		165AD42FDB54175B29ECDDB0 = {
+			isa = PBXFileReference;
+			path = TigerTrailsUITests.xctest;
+			includeInIndex = 0;
+			explicitFileType = wrapper.cfbundle;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CD2945145322F7F5019AD351 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				SUPPORTS_MACCATALYST = NO;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tiger.trails.uitests;
+				TEST_TARGET_NAME = TigerTrails;
+				CURRENT_PROJECT_VERSION = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F390E0AD932AF7A6351C8D4 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				SUPPORTS_MACCATALYST = NO;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tiger.trails.uitests;
+				TEST_TARGET_NAME = TigerTrails;
+				CURRENT_PROJECT_VERSION = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6FA667C61AA8BA0E539EF3D = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (
+				CD2945145322F7F5019AD351,
+				4F390E0AD932AF7A6351C8D4,
+			);
+		};
+		D4057C912A826DC411ACA58B = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A7B770C682AE61F9C32732,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD933DA27CDBD6497A154F4C = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131CBD0CAC0A7CBDFD3EEFA5 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EA56DA2A73AE8AA3489343 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06F80CE88713EB06FDFCD043;
+			remoteGlobalIDString = 9521131F0E2B296284902DC2;
+			remoteInfo = TigerTrails;
+			proxyType = 1;
+		};
+		FF275C20D5634C10A0F47873 = {
+			isa = PBXTargetDependency;
+			target = 9521131F0E2B296284902DC2;
+			targetProxy = B0EA56DA2A73AE8AA3489343;
+		};
+		CCAAAAA0E40FCC9CCC52C926 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FA667C61AA8BA0E539EF3D;
+			productReference = 165AD42FDB54175B29ECDDB0;
+			productType = com.apple.product-type.bundle.ui-testing;
+			productName = TigerTrailsUITests;
+			buildPhases = (
+				D4057C912A826DC411ACA58B,
+				DD933DA27CDBD6497A154F4C,
+				131CBD0CAC0A7CBDFD3EEFA5,
+			);
+			dependencies = (
+				FF275C20D5634C10A0F47873,
+			);
+			name = TigerTrailsUITests;
+			buildRules = ();
+		};
+		F36A819050A2B443EF208ABE = {
+			isa = PBXGroup;
+			name = Products;
+			children = (
+				2EFB3AEB43A319EEC913B003,
+				165AD42FDB54175B29ECDDB0,
+			);
+			sourceTree = "<group>";
+		};
+		3B8094407D88C8EE91B21F83 = {
+			isa = PBXGroup;
+			sourceTree = "<group>";
+			children = (
+				8A9886F2A9F8844EDED61D69,
+
+				133C494E78AF98C4F683CB05,
+				EB5F4E7C091DD1DD05D466F9,
+				20371E34D3F97BF34245349A,
+				F36A819050A2B443EF208ABE,
+			);
+		};
+		06F80CE88713EB06FDFCD043 = {
+			isa = PBXProject;
+			buildConfigurationList = 2163C74ECFF7E877C01F0F5B;
+			targets = (
+				9521131F0E2B296284902DC2,
+				CCAAAAA0E40FCC9CCC52C926,
+			);
+			developmentRegion = en;
+			knownRegions = (
+				en,
+				Base,
+			);
+			compatibilityVersion = "Xcode 14.0";
+			productRefGroup = F36A819050A2B443EF208ABE;
+			projectDirPath = "";
+			attributes = {
+				LastUpgradeCheck = 1600;
+				BuildIndependentTargetsInParallel = 1;
+				TargetAttributes = {
+					CCAAAAA0E40FCC9CCC52C926 = {
+						TestTargetID = 9521131F0E2B296284902DC2;
+					};
+				};
+			};
+			hasScannedForEncodings = 0;
+			projectRoot = "";
+			mainGroup = 3B8094407D88C8EE91B21F83;
+		};
+	};
+	rootObject = 06F80CE88713EB06FDFCD043;
+}
